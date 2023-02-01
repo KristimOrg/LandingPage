@@ -10,13 +10,12 @@ const Hero = () => {
     >
       <div className="max-w-screen-xl w-full flex justify-start px-2 lg:px-10">
         <div className="w-full flex flex-col pb-20 justify-center">
-          <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center lg:text-start mb-7">
-            Project's Name goes here
+          <h2 className="text-3xl font-bold sm:text-5xl lg:text-6xl text-center lg:text-start mb-7">
+            Kristim Ecosystem
           </h2>
           <div className="w-full flex justify-center lg:justify-start">
             <p className="sm:max-w-[70%] w-full flex justify-start text-center lg:max-w-[50%] text-md lg:text-2xl lg:text-start mb-10">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus id explicabo ipsam recusandae non
+              Fully decentralized Crypto social experiment with audited contract
             </p>
           </div>
 

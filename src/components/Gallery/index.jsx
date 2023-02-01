@@ -11,16 +11,13 @@ const Gallery = () => {
         <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
             <p class="text-base font-Orbitron leading-6 text-[#7100E2] font-semibold uppercase">
-              Interactive
+              Collaboration
             </p>
             <h4 class="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
-              Interactivity between team members is the key of the success.
+              Collaboration and contribution between holders is the key of the
+              success.
             </h4>
-            <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-              Build a simply and powered collaborative space for all your team.
-              Track, share, measure, you have a fully control, it&#x27;s never
-              be simply and efficient.
-            </p>
+
             <ul class="mt-8 font-Orbitron md:grid md:grid-cols-2 gap-6 mb-10 sm:mb-20">
               <li class="mt-6 lg:mt-0">
                 <div class="flex">
@@ -38,7 +35,7 @@ const Gallery = () => {
                     </svg>
                   </span>
                   <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                    Live modifications
+                    Holders from all over the world
                   </span>
                 </div>
               </li>
@@ -58,7 +55,7 @@ const Gallery = () => {
                     </svg>
                   </span>
                   <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                    Data tracker
+                    Different areas of expertise
                   </span>
                 </div>
               </li>
@@ -78,7 +75,7 @@ const Gallery = () => {
                     </svg>
                   </span>
                   <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                    24/24 support
+                    Different ages, languages and nationalities
                   </span>
                 </div>
               </li>
@@ -98,7 +95,7 @@ const Gallery = () => {
                     </svg>
                   </span>
                   <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                    Free tips to improve work
+                    One mutual goal to create a 1B unirorn
                   </span>
                 </div>
               </li>
