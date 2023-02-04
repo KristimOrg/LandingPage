@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full flex justify-center py-20 bg-[#161616] text-white"
+      className="w-full flex justify-center py-20 bg-[#101010] text-white"
     >
       <section className="max-w-screen-2xl w-full flex flex-wrap justify-center items-center gap-10 2xl:gap-0">
         <div className="w-[500px] mx-4 shadow-xl">

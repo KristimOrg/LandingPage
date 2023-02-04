@@ -87,7 +87,7 @@ const Team = () => {
               />
 
               <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
-                Amelia. Anderson
+                Amelia
               </h1>
 
               <p class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">

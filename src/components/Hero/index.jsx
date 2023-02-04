@@ -1,25 +1,32 @@
 import Github from "../../Assets/Social/github.png";
 import Medium from "../../Assets/Social/medium.png";
 import Twitter from "../../Assets/Social/twitter.png";
+import unicorn from "../../Assets/Icons/hero.png";
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full h-[calc(100vh-64px)] flex justify-center font-Orbitron items-end bg-[#262626] text-white"
+      className="w-full flex justify-center font-Orbitron items-end bg-black text-white"
     >
-      <div className="max-w-screen-xl w-full flex justify-start px-2 lg:px-10">
-        <div className="w-full flex flex-col pb-20 justify-center">
+      <div className="relative mt-[500px] max-w-screen-2xl w-full flex justify-start px-2">
+        <div className="w-full px-2 sm:px-10 z-20 left-0 bottom-0 flex flex-col pb-20 justify-center items-center lg:items-start">
+          {/* Image */}
+          <div className="w-full lg:hidden mt-20 border mb-10">
+            <img src={unicorn} alt="unicorn" />
+          </div>
+          {/* Title */}
           <h2 className="text-3xl font-bold sm:text-5xl lg:text-6xl text-center lg:text-start mb-7">
             Kristim Ecosystem
           </h2>
+          {/* Subtext */}
           <div className="w-full flex justify-center lg:justify-start">
-            <p className="sm:max-w-[70%] w-full flex justify-start text-center lg:max-w-[50%] text-md lg:text-2xl lg:text-start mb-10">
+            <p className="sm:max-w-[60%] w-full flex justify-start text-center lg:max-w-[50%] text-md lg:text-2xl lg:text-start mb-10">
               Fully decentralized Crypto social experiment with audited contract
             </p>
           </div>
 
-          {/* done */}
+          {/* Buttons */}
           <div className="flex justify-center lg:justify-start items-center gap-4 w-full flex-wrap">
             <a href="#contact">
               <button className="bg-[#8833e9] text-white hover:bg-[#5a16a7] transition-all duration-500 px-4 sm:px-8 py-3 text-[15px] sm:text-lg font-semibold rounded-xl">
@@ -60,6 +67,9 @@ const Hero = () => {
               <img src={Twitter} alt="" className="h-12" />
             </a>
           </div>
+        </div>
+        <div className="hidden lg:flex w-full lg:w-[700px] xl:w-[870px] absolute right-0 bottom-20 z-10">
+          <img src={unicorn} alt="unicorn" />
         </div>
       </div>
     </section>

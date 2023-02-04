@@ -29,25 +29,21 @@ const Description = () => {
             </p>
           </li>
           <li className="text-center lg:text-end">
-            <h3 className="text-2xl font-bold">
-              Lorem ipsum dolor, sit amet consectetur
-            </h3>
+            <h3 className="text-2xl font-bold">Telegram Tip Bot</h3>
             <p className="max-w-2xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              illum vitae corporis dolores ipsam, dolorum omnis ducimus
-              perferendis. At necessitatibus voluptate, totam dolore debitis
-              recusandae nobis? Excepturi cumque rerum velit.
+              Added to your TG Chat it allows anyone to tip any comment in any
+              crypto if both people are connected to the bot. This can improve
+              social connections among the members of your community and provide
+              a tool for authors to receive anonymous donations for their
+              content and engage the community to create and share their content
             </p>
           </li>
           <li className="text-center lg:text-end">
-            <h3 className="text-2xl font-bold">
-              Lorem ipsum dolor, sit amet consectetur
-            </h3>
+            <h3 className="text-2xl font-bold">Radio Under Development</h3>
             <p className="max-w-2xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              illum vitae corporis dolores ipsam, dolorum omnis ducimus
-              perferendis. At necessitatibus voluptate, totam dolore debitis
-              recusandae nobis? Excepturi cumque rerum velit.
+              Radio (or TV) is going to be connected from telegram to Youtube
+              and will include both entertaining content (music, fun podcasts),
+              and educative and innovative content.
             </p>
           </li>
         </ul>
