@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 
 import HeaderLogo from "../../Assets/Logos/HeaderLogo.png";
 import AppButton from "../UI/AppButton";
 import HamburgerIcon from "../UI/HamburgerIcon";
 import CloseIcon from "../UI/CloseIcon";
+import logo from "../../Assets/Logos/FooterLogo.png";
 
 import Twitter from "../../Assets/Social/twitter.png";
 import Telegram from "../../Assets/Social/telegram.png";
@@ -47,8 +48,14 @@ const Header = () => {
               <a href="#team">Team</a>
             </li>
           </ul>
-
-          <AppButton />
+          <a
+            // href="/"
+            // target="_blank"
+            // rel="noreferrer"
+            title="Coming Soon!"
+          >
+            <AppButton />
+          </a>
         </div>
       </div>
       <div className="flex items-center gap-4">
@@ -59,7 +66,7 @@ const Header = () => {
         <div
           className={
             nav
-              ? "lg:hidden fixed z-30 right-0 top-0 w-full h-screen drop-shadow-2xl "
+              ? "lg:hidden fixed z-50 right-0 top-0 w-full h-screen drop-shadow-2xl "
               : null
           }
         >
@@ -72,7 +79,11 @@ const Header = () => {
           >
             <div className="flex flex-col w-full h-screen font-Orbitron items-center justify-start">
               <div className="flex justify-between items-center w-full mb-5">
-                <h1 className="text-2xl font-bold">Kristim</h1>
+                <div className="flex gap-2 justify-center items-center">
+                  <img src={logo} alt="" className="w-14" />
+                  <h1 className="text-2xl font-bold">Kristim</h1>
+                </div>
+
                 <div onClick={handleNav}>
                   <CloseIcon />
                 </div>
@@ -110,13 +121,37 @@ const Header = () => {
                     </li>
                   </a>
                 </ul>
+                <div className="flex flex-col w-full">
+                  <div className="w-full flex justify-end">
+                    <span className="border-gray-500 border-[3px] w-[25%]"></span>
+                  </div>
 
-                <div className="flex flex-col items-center gap-5 border-t border-gray-500 pt-5 w-full">
-                  <h2 className="font-bold text-xl mb-3">Join Us</h2>
-                  <div className="flex gap-5">
-                    <img src={Twitter} alt="twitter" className="h-12" />
-                    <img src={Discord} alt="Discord" className="h-12" />
-                    <img src={Telegram} alt="Telegram" className="h-12" />
+                  <div className="flex flex-col items-center gap-5 border-t border-gray-500 pt-5 w-full">
+                    <h2 className="font-bold text-xl mb-3">Join Us</h2>
+                    <div className="flex gap-5">
+                      <a
+                        href="https://twitter.com/KrstmTech"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src={Twitter} alt="twitter" className="h-10" />
+                      </a>
+                      <a
+                        href="https://discord.com/invite/MxmQkXdj"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src={Discord} alt="Discord" className="h-10" />
+                      </a>
+
+                      <a
+                        href="https://t.me/wecryptohere"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src={Telegram} alt="Telegram" className="h-10" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -9,10 +9,10 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full flex justify-center py-20 bg-[#101010] text-white"
+      className="w-full flex justify-center py-20 bg-[#0b0b0b] text-white"
     >
-      <section className="max-w-screen-2xl w-full flex flex-wrap justify-center items-center gap-10 2xl:gap-0">
-        <div className="w-[500px] mx-4 shadow-xl">
+      <section className="max-w-screen-2xl px-3 w-full gap-5 xl:gap-0 flex flex-wrap justify-center items-center">
+        <div className="w-[450px] shadow-xl">
           <img src={unicorn} alt="" className="bg-cover border-2 rounded-3xl" />
         </div>
 
@@ -23,7 +23,7 @@ const About = () => {
               Decentralized Ecosystem
             </h2>
             <p className="px-8 my-4 lg:max-w-[60%] text-center">
-              KRSTM is created as a hub for fully independent decentralized
+              KRSTM is created as a hub for fully independent and decentralized
               projects with community support.
             </p>
           </div>

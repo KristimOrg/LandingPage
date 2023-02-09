@@ -3,14 +3,14 @@ import styles from "./Styles.module.css";
 const CloseIcon = () => {
   return (
     <div>
-      <a href="#" class={styles.closeButton}>
-        <div class={styles.in}>
-          <div class={styles.closeButtonBlock}></div>
-          <div class={styles.closeButtonBlock}></div>
+      <a href="#" className={styles.closeButton}>
+        <div className={styles.in}>
+          <div className={styles.closeButtonBlock}></div>
+          <div className={styles.closeButtonBlock}></div>
         </div>
-        <div class={styles.out}>
-          <div class={styles.closeButtonBlock}></div>
-          <div class={styles.closeButtonBlock}></div>
+        <div className={styles.out}>
+          <div className={styles.closeButtonBlock}></div>
+          <div className={styles.closeButtonBlock}></div>
         </div>
       </a>
     </div>

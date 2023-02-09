@@ -9,10 +9,10 @@ const Hero = () => {
       id="home"
       className="w-full flex justify-center font-Orbitron items-end bg-black text-white"
     >
-      <div className="relative mt-[500px] max-w-screen-2xl w-full flex justify-start px-2">
+      <div className="relative lg:mt-[500px] max-w-screen-2xl w-full flex justify-start px-2">
         <div className="w-full px-2 sm:px-10 z-20 left-0 bottom-0 flex flex-col pb-20 justify-center items-center lg:items-start">
           {/* Image */}
-          <div className="w-full lg:hidden mt-20 border mb-10">
+          <div className="w-full lg:hidden mt-20 mb-10">
             <img src={unicorn} alt="unicorn" />
           </div>
           {/* Title */}
@@ -34,9 +34,10 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://www.youtube.com/watch?v=hN4-Uq02Qzg"
-              target="_blank"
-              rel="noreferrer"
+              // href="/"
+              // target="_blank"
+              // rel="noreferrer"
+              title="Coming Soon!"
             >
               <button className="bg-white hover:bg-[#c4c4c4] transition-all duration-500 text-black px-4 sm:px-8 py-3 text-[15px] sm:text-lg font-semibold rounded-xl">
                 Documentation
@@ -46,16 +47,18 @@ const Hero = () => {
 
           <div className="w-full flex justify-center lg:justify-start gap-4 mt-10">
             <a
-              href="https://www.youtube.com/watch?v=8LVkcXA6Wxc"
-              target="_blank"
-              rel="noreferrer"
+              // href="/"
+              // target="_blank"
+              // rel="noreferrer"
+              title="Coming Soon!"
             >
               <img src={Github} alt="" className="h-12" />
             </a>
             <a
-              href="https://www.youtube.com/watch?v=8LVkcXA6Wxc"
-              target="_blank"
-              rel="noreferrer"
+              // href="/"
+              // target="_blank"
+              // rel="noreferrer"
+              title="Coming Soon!"
             >
               <img src={Medium} alt="" className="h-12" />
             </a>
