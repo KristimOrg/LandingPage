@@ -1,4 +1,3 @@
-import losangoTitle from "../../Assets/Icons/losangoTitle.png";
 import losango from "../../Assets/Icons/losango.png";
 import RoadmapItem from "../UI/RoadmapItem/indes";
 
@@ -47,7 +46,7 @@ const Roadmap = () => {
                 <RoadmapItem
                   done={true}
                   subtitle="Liquidity Added"
-                  content="WMATIC / KRTSM pair"
+                  content="WMATIC / KRSTM pair"
                 />
                 <RoadmapItem
                   done={true}
