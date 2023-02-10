@@ -83,7 +83,7 @@ const Roadmap = () => {
                       alt=""
                       className="w-8 h-8 relative left-0"
                     />
-                    <h3 className="font-bold text-xl">First Quarter</h3>
+                    <h3 className="font-bold text-xl">Second Quarter</h3>
                   </div>
                   <span className="flex justify-center items-center text-gray-400">
                     2023
@@ -135,7 +135,7 @@ const Roadmap = () => {
                       alt=""
                       className="w-8 h-8 relative left-0"
                     />
-                    <h3 className="font-bold text-xl">First Quarter</h3>
+                    <h3 className="font-bold text-xl">Third Quarter</h3>
                   </div>
                   <span className="flex justify-center items-center text-gray-400">
                     2023

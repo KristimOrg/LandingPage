@@ -1,17 +1,17 @@
-import kristim from "../../Assets/Logos/FooterLogo.png";
+import kristim from "../../Assets/Logos/HeaderLogo.png";
 
 const Footer = () => {
   return (
     <div>
       <footer
-        ariaLabel="Site Footer"
+        aria-label="Site Footer"
         className="bg-black text-white font-ChakraPetch"
       >
         <div className="mx-auto max-w-screen-xl sm:px-4 px-1 pt-16 pb-6 lg:px-8 lg:pt-24">
           <div className="flex flex-col gap-10 items-center lg:flex-row lg:items-start justify-between">
             <div className="font-ChakraPetch p-2">
               <h2 className="text-[50px] flex justify-center lg:justify-start gap-2 text-center lg:text-start font-bold">
-                <img src={kristim} alt="" className="w-16 h-16" /> Kristim
+                <img src={kristim} alt="" className="w-16 h-14" /> Kristim
               </h2>
               <p className="mt-2 text-center lg:text-start leading-relaxed sm:mx-0 sm:max-w-xs">
                 The Unicorn symbolizes uniqueness, purity, rarity, freedom and
@@ -24,7 +24,7 @@ const Footer = () => {
               <div className="text-center sm:text-left max-w-[150px] mb-10 w-full">
                 <p className="text-2xl font-bold cursor-pointer">About</p>
 
-                <nav ariaLabel="Footer Services Nav" className="mt-4">
+                <nav aria-label="Footer Services Nav" className="mt-4">
                   <ul className="space-y-4 text-sm">
                     <li className="cursor-pointer hover:text-gray-400">
                       <a
@@ -74,7 +74,7 @@ const Footer = () => {
               <div className="text-center sm:text-left max-w-[150px] mb-10 w-full">
                 <p className="text-2xl font-bold cursor-pointer">Sections</p>
 
-                <nav ariaLabel="Footer Services Nav" className="mt-4">
+                <nav aria-label="Footer Services Nav" className="mt-4">
                   <ul className="space-y-4 text-sm">
                     <ul className="space-y-4 text-sm">
                       <li className="cursor-pointer hover:text-gray-400">
@@ -99,7 +99,7 @@ const Footer = () => {
               <div className="text-center sm:text-left max-w-[150px] mb-10 w-full">
                 <p className="text-2xl font-bold cursor-pointer">Contact</p>
 
-                <nav ariaLabel="Footer Services Nav" className="mt-4">
+                <nav aria-label="Footer Services Nav" className="mt-4">
                   <ul className="space-y-4 text-sm">
                     <li className="cursor-pointer hover:text-gray-400">
                       <a
@@ -147,7 +147,7 @@ const Footer = () => {
               <div className="text-center sm:text-left max-w-[150px] mb-10 w-full">
                 <p className="text-2xl font-bold cursor-pointer">Ecosystem</p>
 
-                <nav ariaLabel="Footer Services Nav" className="mt-4">
+                <nav aria-label="Footer Services Nav" className="mt-4">
                   <ul className="space-y-4 text-sm">
                     <ul className="space-y-4 text-sm">
                       <li className="cursor-pointer hover:text-gray-400">

@@ -5,7 +5,7 @@ import HeaderLogo from "../../Assets/Logos/HeaderLogo.png";
 import AppButton from "../UI/AppButton";
 import HamburgerIcon from "../UI/HamburgerIcon";
 import CloseIcon from "../UI/CloseIcon";
-import logo from "../../Assets/Logos/FooterLogo.png";
+import logo from "../../Assets/Logos/HeaderLogo.png";
 
 import Twitter from "../../Assets/Social/twitter.png";
 import Telegram from "../../Assets/Social/telegram.png";
@@ -22,7 +22,7 @@ const Header = () => {
     <header className="flex justify-center w-full bg-[#181A1F]">
       <div className="max-w-screen-2xl w-full h-16 flex justify-between items-center font-Orbitron p-4">
         <h1 className="text-2xl cursor-pointer font-bold text-white flex items-center gap-5">
-          <img src={HeaderLogo} alt="" />
+          <img src={HeaderLogo} alt="" className="w-14" />
           <p className="flex justify-end font-thin max-h-full items-end">
             Kristim
           </p>

@@ -32,7 +32,7 @@ const About = () => {
             <div className="max-w-3xl w-full flex flex-wrap justify-center gap-5 p-4">
               <div className="flex flex-col items-center justify-center space-y-3 max-w-xs md:justify-start md:items-start">
                 <img src={fee} alt="" className="w-7 h-7 text-[#e61616]" />
-                <h5 className="text-xl font-semibold">There is no taxes</h5>
+                <h5 className="text-xl font-semibold">There are no taxes</h5>
                 <p className="text-center sm:text-start">
                   The main token has no taxes and is fully supported and moved
                   by the minds and ideas of developers and other members of
