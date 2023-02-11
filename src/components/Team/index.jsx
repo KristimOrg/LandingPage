@@ -5,7 +5,7 @@ const Team = () => {
     <div id="team" className="w-full flex justify-center bg-[#161616]">
       <section className="">
         <div className="max-w-screen-2xl w-full px-2 py-10 flex flex-col justify-center items-center">
-          <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
+          <h1 className="text-3xl font-semibold text-center  capitalize lg:text-4xl text-white">
             <span className={styles.marquerEffect}>Check Out Our Team</span>
           </h1>
 
@@ -24,14 +24,14 @@ const Team = () => {
                 alt=""
               />
 
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
                 Irina
               </h1>
 
               <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Cofounder
               </p>
-              <p className="mt-1 font-bold text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Digital marketing
               </p>
             </div>
@@ -44,7 +44,7 @@ const Team = () => {
                 alt=""
               />
 
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
                 Emelea
               </h1>
 
@@ -64,7 +64,7 @@ const Team = () => {
                 alt=""
               />
 
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
                 Wallace
               </h1>
 
@@ -84,7 +84,7 @@ const Team = () => {
                 alt=""
               />
 
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
                 Robert
               </h1>
 
@@ -104,7 +104,7 @@ const Team = () => {
                 alt=""
               />
 
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
                 Rebeca
               </h1>
 
@@ -124,7 +124,7 @@ const Team = () => {
                 alt=""
               />
 
-              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
                 David Ama
               </h1>
 

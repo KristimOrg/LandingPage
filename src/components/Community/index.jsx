@@ -86,7 +86,7 @@ const Gallery = () => {
             <p className="text-base font-Orbitron leading-6 text-[#7100E2] font-semibold uppercase">
               Collaboration
             </p>
-            <h4 className="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
+            <h4 className="mt-2 text-2xl leading-8 font-extrabold text-white sm:text-3xl sm:leading-9">
               Collaboration and contribution between holders is the key of the
               success.
             </h4>
@@ -107,7 +107,7 @@ const Gallery = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
+                  <span className="ml-4 text-base leading-6 font-medium text-gray-200">
                     Holders from all over the world
                   </span>
                 </div>
@@ -127,7 +127,7 @@ const Gallery = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
+                  <span className="ml-4 text-base leading-6 font-medium text-gray-200">
                     Different areas of expertise
                   </span>
                 </div>
@@ -147,7 +147,7 @@ const Gallery = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
+                  <span className="ml-4 text-base leading-6 font-medium text-gray-200">
                     Different ages, languages and nationalities
                   </span>
                 </div>
@@ -167,7 +167,7 @@ const Gallery = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
+                  <span className="ml-4 text-base leading-6 font-medium text-gray-200">
                     One mutual goal to create a 1B unirorn
                   </span>
                 </div>
@@ -187,7 +187,7 @@ const Gallery = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
+                  <span className="ml-4 text-base leading-6 font-medium text-gray-200">
                     Community driven development
                   </span>
                 </div>
@@ -207,7 +207,7 @@ const Gallery = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
+                  <span className="ml-4 text-base leading-6 font-medium text-gray-200">
                     Open source projects, no obscurity
                   </span>
                 </div>

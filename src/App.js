@@ -29,6 +29,9 @@ function App() {
     window.scrollTo({ top: 0 });
   };
 
+  // Remove on final version
+  console.log("Thanks for the dark text bug report David! 🦄");
+
   return (
     <div>
       <Header />
@@ -46,11 +49,6 @@ function App() {
         <button
           onClick={scrollToTop}
           className="fixed z-40 border-2 transition-all duration-300 hover:border-[#7E22CE] border-gray-200 bottom-3 right-3 sm:right-10 sm:bottom-10 rounded-xl p-3 sm:p-4 bg-[#000]"
-          // className={
-          //   backTop
-          //     ? "bg-blue-600 delay-300 opacity-100 transition-opacity fixed top-0 right-0 ease-in-out duration-700"
-          //     : "bg-blue-600 delay-300 opacity-0 transition-opacity fixed top-0 right-0 ease-in-out duration-700"
-          // }
         >
           <img src={up} alt="" className="w-6 sm:w-8" />
         </button>
