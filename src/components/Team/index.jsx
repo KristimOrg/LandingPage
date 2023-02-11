@@ -28,7 +28,7 @@ const Team = () => {
                 Irina
               </h1>
 
-              <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Cofounder
               </p>
               <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
@@ -48,10 +48,10 @@ const Team = () => {
                 Emelea
               </h1>
 
-              <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Cofounder
               </p>
-              <p className="mt-1 font-bold text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Python Developer
               </p>
             </div>
@@ -68,10 +68,10 @@ const Team = () => {
                 Wallace
               </h1>
 
-              <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Cofounder
               </p>
-              <p className="mt-1 font-bold text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Solidity developer
               </p>
             </div>
@@ -88,10 +88,10 @@ const Team = () => {
                 Robert
               </h1>
 
-              <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Project Advisor
               </p>
-              <p className="mt-1 font-bold text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Entrepreneur
               </p>
             </div>
@@ -108,10 +108,10 @@ const Team = () => {
                 Rebeca
               </h1>
 
-              <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Builder
               </p>
-              <p className="mt-1 font-bold text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Frontend Developer
               </p>
             </div>
@@ -128,10 +128,10 @@ const Team = () => {
                 David Ama
               </h1>
 
-              <p className=" text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Builder
               </p>
-              <p className="mt-1 font-bold text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
                 Marketing
               </p>
             </div>
