@@ -1,4 +1,8 @@
 import styles from "./styles.module.css";
+import Irina from "../../Assets/team/irina.png";
+import Wallace from "../../Assets/team/wallace.png";
+import Rebeca from "../../Assets/team/rebeca.png";
+import Emelea from "../../Assets/team/emelea.png";
 
 const Team = () => {
   return (
@@ -20,7 +24,7 @@ const Team = () => {
             <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
               <img
                 className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                src={Irina}
                 alt=""
               />
 
@@ -37,44 +41,56 @@ const Team = () => {
             </div>
 
             {/* Emelea */}
-            <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
-              <img
-                className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
+            <a
+              href="https://www.linkedin.com/in/iura-cep-45b994160/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
+                <img
+                  className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
+                  src={Emelea}
+                  alt=""
+                />
 
-              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
-                Emelea
-              </h1>
+                <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
+                  Emelea
+                </h1>
 
-              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Cofounder
-              </p>
-              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Python Developer
-              </p>
-            </div>
+                <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  Cofounder
+                </p>
+                <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  Python Developer
+                </p>
+              </div>
+            </a>
 
             {/* Wallace */}
-            <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
-              <img
-                className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
+            <a
+              href="https://www.linkedin.com/in/wallace-pinheiro-b96a6519a/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
+                <img
+                  className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
+                  src={Wallace}
+                  alt=""
+                />
 
-              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
-                Wallace
-              </h1>
+                <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
+                  Wallace
+                </h1>
 
-              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Cofounder
-              </p>
-              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Solidity developer
-              </p>
-            </div>
+                <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  Cofounder
+                </p>
+                <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  Solidity developer
+                </p>
+              </div>
+            </a>
 
             {/* Robert */}
             <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
@@ -97,24 +113,30 @@ const Team = () => {
             </div>
 
             {/* Rebeca */}
-            <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
-              <img
-                className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
+            <a
+              href="https://github.com/rebecagrn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
+                <img
+                  className="object-cover w-32 h-32 rounded-full animate-border bg-gradient-to-r from-purple-400 via-purple-600 to-purple-900 bg-[length:400%_400%] p-1 transition "
+                  src={Rebeca}
+                  alt=""
+                />
 
-              <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
-                Rebeca
-              </h1>
+                <h1 className="mt-4 text-2xl font-semibold text-white group-hover:text-white">
+                  Rebeca
+                </h1>
 
-              <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Builder
-              </p>
-              <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                Frontend Developer
-              </p>
-            </div>
+                <p className=" text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  Builder
+                </p>
+                <p className="mt-1 font-bold text-gray-400 capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  Frontend Developer
+                </p>
+              </div>
+            </a>
 
             {/* David Ama */}
             <div className="flex flex-col items-center p-2 transition-colors duration-300 transform cursor-pointer group hover:bg-[#45454561] rounded-xl">
