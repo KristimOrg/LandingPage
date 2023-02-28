@@ -54,10 +54,11 @@ const Roadmap = () => {
                   content="Website created to provide an overview of the ecosystem to newcomers"
                 />
                 <RoadmapItem
-                  done={false}
-                  subtitle="Social Media"
-                  content="Github, Twitter, Youtube, Discord, Medium and Telegram"
+                  done={true}
+                  subtitle="Order-based DEX"
+                  content="Decentralized order book dapp to avoid massive liquidity hits and open arbitrage opportunities"
                 />
+
                 <RoadmapItem
                   done={false}
                   subtitle="Domain Zone"
@@ -149,6 +150,11 @@ const Roadmap = () => {
                 />
                 <RoadmapItem
                   done={false}
+                  subtitle="Social Media"
+                  content="Github, Twitter, Youtube, Discord, Medium and Telegram"
+                />
+                <RoadmapItem
+                  done={false}
                   subtitle="Synthetics Dapp Launched"
                   content="Synthetics integrated and tested by the final user, hosted and able to scale"
                 />
@@ -156,11 +162,6 @@ const Roadmap = () => {
                   done={false}
                   subtitle="Radio Integration"
                   content="Deployment to production; Take feedback to integrate new features"
-                />
-                <RoadmapItem
-                  done={false}
-                  subtitle="Order-based DEX"
-                  content="Decentralized order book dapp to avoid massive liquidity hits and open arbitrage opportunities"
                 />
                 <RoadmapItem
                   done={false}
