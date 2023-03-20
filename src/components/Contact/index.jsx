@@ -19,10 +19,10 @@ const Contact = () => {
           {/* github */}
           <div className="p-4 flex flex-col gap-4 w-[170px] sm:w-[300px] justify-center items-center">
             <a
-              // href="/"
-              // target="_blank"
-              // rel="noreferrer"
-              title="Coming Soon!"
+               href="https://github.com/KristimOrg"
+               target="_blank"
+               rel="noreferrer"
+              // title="Coming Soon!"
             >
               <div className="flex justify-center items-center lg:col-span-1 col-span-full">
                 <img src={github} alt="github" className="h-12 sm:h-20" />

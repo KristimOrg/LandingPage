@@ -48,10 +48,10 @@ const Footer = () => {
                     </li>
                     <li className="cursor-pointer hover:text-gray-400">
                       <a
-                        // href="/"
-                        // target="_blank"
-                        // rel="noreferrer"
-                        title="Coming Soon!"
+                          href="https://github.com/KristimOrg"
+                          target="_blank"
+                          rel="noreferrer"
+                       // title="Coming Soon!"
                       >
                         Github
                       </a>
@@ -162,10 +162,10 @@ const Footer = () => {
                       </li>
                       <li className="cursor-pointer hover:text-gray-400">
                         <a
-                          // href="/"
-                          // target="_blank"
-                          // rel="noreferrer"
-                          title="Coming Soon!"
+                           href="https://obxdex.com"
+                           target="_blank"
+                           rel="noreferrer"
+                          // title="Coming Soon!"
                         >
                           OBX Exchange
                         </a>
