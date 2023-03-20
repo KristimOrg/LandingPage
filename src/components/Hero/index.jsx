@@ -47,10 +47,10 @@ const Hero = () => {
 
           <div className="w-full flex justify-center lg:justify-start gap-4 mt-10">
             <a
-              // href="/"
-              // target="_blank"
-              // rel="noreferrer"
-              title="Coming Soon!"
+               href="https://github.com/KristimOrg"
+               target="_blank"
+               rel="noreferrer"
+              // title="Coming Soon!"
             >
               <img src={Github} alt="" className="h-12" />
             </a>
